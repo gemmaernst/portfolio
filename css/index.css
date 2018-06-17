@@ -4,30 +4,56 @@
   margin: 0;
   box-sizing: border-box;
 }
+img{
+  max-width: 100%;
+}
+
+a{
+  color: inherit;
+}
 
 
 /* GERNERIC STYLES */
 body{
-  font-family: 'IM Fell French Canon', serif;
+  font-family: 'Tajawal', sans-serif;
+}
+
+section {
+  padding: 1.5%;
+
 }
 
 
 /* HEADER */
 .header{
-  height: 70vh;
+  height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.header nav
+{
+  position: fixed;
+  right: 7%;
+  top:5%;
+  color: white;
+  background-color: #eee7e1;
+  padding:2%;
+}
 
 /* TYPOGRAPHY  */
 
 h1{
   color: black;
+  font-size: 8rem;
 }
 
+h2{
+  padding:1.5%;
+
+}
 p{
 
 }
@@ -39,12 +65,29 @@ p{
   text-align:center;
 
 }
+
+.flexcenter{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.padding-grid{
+padding: 2%;
+}
+
+.image{
+  min-height: 30vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* SPECIFIC CLASSES  */
 
 
 .parallax {
 background-image: url("/images/plant.jpg");
-height: 50vh;
+height: 30vh;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -52,16 +95,37 @@ background-size: cover;
 }
 
 .b1 {
-    background-color: #eee7e1;
+    background-color: #eadcd4;
 }
 
 .b2 {
-    background-color: #eadcd4;
+    background-color: #ede9d5;
 }
 
 .b3 {
     background-color: #d2ddd0;
 }
 .b4 {
-    background-color: #ede9d5;
+    background-color: #eee7e1;
+}
+
+.paint-bg{
+background-image:url("/images/paint.jpg");
+}
+.me{
+background-image:url("/images/me.jpg");
+}
+
+/* FOOTER */
+footer{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input,textarea,button{
+  display: block;width: 40%;
+  margin:0.3% auto;
+  padding: 0.3%;
 }
