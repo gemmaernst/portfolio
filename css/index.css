@@ -1,0 +1,67 @@
+/* UNIVERSAL RESET  */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* GERNERIC STYLES */
+body{
+  font-family: 'IM Fell French Canon', serif;
+}
+
+
+/* HEADER */
+.header{
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* TYPOGRAPHY  */
+
+h1{
+  color: black;
+}
+
+p{
+
+}
+
+
+/* HELPA CLASSES */
+
+.center{
+  text-align:center;
+
+}
+/* SPECIFIC CLASSES  */
+
+
+.parallax {
+background-image: url("/images/plant.jpg");
+height: 50vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.b1 {
+    background-color: #eee7e1;
+}
+
+.b2 {
+    background-color: #eadcd4;
+}
+
+.b3 {
+    background-color: #d2ddd0;
+}
+.b4 {
+    background-color: #ede9d5;
+}
